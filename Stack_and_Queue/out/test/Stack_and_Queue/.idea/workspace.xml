@@ -24,14 +24,9 @@
       <file leaf-file-name="ArrayQueue.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/howard/edu/ood/hw2/collections/ArrayQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-              <folding>
-                <element signature="e#1181#1182#0" expanded="true" />
-                <element signature="e#1228#1229#0" expanded="true" />
-                <element signature="e#1436#1437#0" expanded="true" />
-                <element signature="e#1502#1503#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="152">
+              <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -39,11 +34,9 @@
       <file leaf-file-name="ArrayQueueTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/main/java/howard/edu/ood/hw2/collections/ArrayQueueTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1444">
-              <caret line="76" column="5" lean-forward="true" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="57">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -160,6 +153,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="howard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="edu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ood" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hw2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="collections" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -289,8 +314,74 @@
       <recent name="howard.edu.ood.hw2.collections" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ArrayQueueTest.testToStringWhenMoreThanOneElementInQueue">
-    <configuration default="false" name="ArrayQueueTest.testPeekWhenNotEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ArrayQueueTest (1)">
+    <configuration default="false" name="TestJunit (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="test.TestJunit" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestJunit.testAdd" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="test.TestJunit" />
+      <option name="METHOD_NAME" value="testAdd" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="ArrayQueueTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="main.java.howard.edu.ood.hw2.collections.*" />
@@ -302,8 +393,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="main.java.howard.edu.ood.hw2.collections" />
       <option name="MAIN_CLASS_NAME" value="main.java.howard.edu.ood.hw2.collections.ArrayQueueTest" />
-      <option name="METHOD_NAME" value="testPeekWhenNotEmpty" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -316,33 +407,27 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="ArrayQueueTest.testToPrintStringWhenQueueIsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="main.java.howard.edu.ood.hw2.collections.*" />
+          <option name="PATTERN" value="driver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="Stack_and_Queue" />
+      <option name="MAIN_CLASS_NAME" value="driver.Driver" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="main.java.howard.edu.ood.hw2.collections" />
-      <option name="MAIN_CLASS_NAME" value="main.java.howard.edu.ood.hw2.collections.ArrayQueueTest" />
-      <option name="METHOD_NAME" value="testToPrintStringWhenQueueIsEmpty" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
+      <module name="Stack_and_Queue" />
       <envs />
-      <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="ArrayQueueTest.testToStringWhenOnlyOneElementInQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="ArrayQueueTest.dequeue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="main.java.howard.edu.ood.hw2.collections.*" />
@@ -354,59 +439,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="main.java.howard.edu.ood.hw2.collections" />
       <option name="MAIN_CLASS_NAME" value="main.java.howard.edu.ood.hw2.collections.ArrayQueueTest" />
-      <option name="METHOD_NAME" value="testToStringWhenOnlyOneElementInQueue" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="ArrayQueueTest.testToStringWhenQueueIsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="main.java.howard.edu.ood.hw2.collections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Stack_and_Queue" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="main.java.howard.edu.ood.hw2.collections" />
-      <option name="MAIN_CLASS_NAME" value="main.java.howard.edu.ood.hw2.collections.ArrayQueueTest" />
-      <option name="METHOD_NAME" value="testToStringWhenQueueIsEmpty" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="ArrayQueueTest.testToStringWhenMoreThanOneElementInQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="main.java.howard.edu.ood.hw2.collections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Stack_and_Queue" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="main.java.howard.edu.ood.hw2.collections" />
-      <option name="MAIN_CLASS_NAME" value="main.java.howard.edu.ood.hw2.collections.ArrayQueueTest" />
-      <option name="METHOD_NAME" value="testToStringWhenMoreThanOneElementInQueue" />
+      <option name="METHOD_NAME" value="dequeue" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -547,19 +580,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.ArrayQueueTest.testPeekWhenNotEmpty" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ArrayQueueTest.testToPrintStringWhenQueueIsEmpty" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ArrayQueueTest.testToStringWhenOnlyOneElementInQueue" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ArrayQueueTest.testToStringWhenQueueIsEmpty" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ArrayQueueTest.testToStringWhenMoreThanOneElementInQueue" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.TestJunit (1)" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.TestJunit.testAdd" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ArrayQueueTest (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Driver" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ArrayQueueTest.dequeue" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ArrayQueueTest.testToStringWhenMoreThanOneElementInQueue" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ArrayQueueTest.testToStringWhenQueueIsEmpty" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ArrayQueueTest.testToStringWhenOnlyOneElementInQueue" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ArrayQueueTest.testToPrintStringWhenQueueIsEmpty" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ArrayQueueTest.testPeekWhenNotEmpty" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ArrayQueueTest (1)" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ArrayQueueTest.dequeue" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Driver" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.TestJunit.testAdd" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.TestJunit (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -580,35 +613,11 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArrayQueueTest_testIsEmptyWhenNotEmpty - 2017.03.10 at 19h 13m 17s.xml">
-      <configuration name="ArrayQueueTest.testIsEmptyWhenNotEmpty" configurationId="JUnit" />
+    <history-entry file="ArrayQueueTest_(1) - 2017.03.10 at 18h 40m 39s.xml">
+      <configuration name="ArrayQueueTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrayQueueTest_testIsEmptyWhenNotEmpty - 2017.03.10 at 19h 13m 33s.xml">
-      <configuration name="ArrayQueueTest.testIsEmptyWhenNotEmpty" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ArrayQueueTest_testPeekWhenNotEmpty - 2017.03.10 at 19h 15m 42s.xml">
-      <configuration name="ArrayQueueTest.testPeekWhenNotEmpty" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ArrayQueueTest_testPeekWhenQueueIsEmpty - 2017.03.10 at 19h 13m 50s.xml">
-      <configuration name="ArrayQueueTest.testPeekWhenQueueIsEmpty" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ArrayQueueTest_testToPrintStringWhenQueueIsEmpty - 2017.03.10 at 19h 38m 57s.xml">
-      <configuration name="ArrayQueueTest.testToPrintStringWhenQueueIsEmpty" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ArrayQueueTest_testToStringWhenMoreThanOneElementInQueue - 2017.03.10 at 19h 46m 39s.xml">
-      <configuration name="ArrayQueueTest.testToStringWhenMoreThanOneElementInQueue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ArrayQueueTest_testToStringWhenMoreThanOneElementInQueue - 2017.03.10 at 19h 48m 17s.xml">
-      <configuration name="ArrayQueueTest.testToStringWhenMoreThanOneElementInQueue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ArrayQueueTest_testToStringWhenMoreThanOneElementInQueue - 2017.03.10 at 19h 49m 51s.xml">
-      <configuration name="ArrayQueueTest.testToStringWhenMoreThanOneElementInQueue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ArrayQueueTest_testToStringWhenOnlyOneElementInQueue - 2017.03.10 at 19h 41m 59s.xml">
-      <configuration name="ArrayQueueTest.testToStringWhenOnlyOneElementInQueue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ArrayQueueTest_testToStringWhenQueueIsEmpty - 2017.03.10 at 19h 42m 02s.xml">
-      <configuration name="ArrayQueueTest.testToStringWhenQueueIsEmpty" configurationId="JUnit" />
+    <history-entry file="ArrayQueueTest_(1) - 2017.03.10 at 18h 49m 57s.xml">
+      <configuration name="ArrayQueueTest (1)" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -622,7 +631,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="1024" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -632,11 +641,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0921466" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.226178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22619048" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22619048" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -691,24 +700,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/howard/edu/ood/hw2/collections/ArrayQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding>
-            <element signature="e#1181#1182#0" expanded="true" />
-            <element signature="e#1228#1229#0" expanded="true" />
-            <element signature="e#1436#1437#0" expanded="true" />
-            <element signature="e#1502#1503#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="152">
+          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/main/java/howard/edu/ood/hw2/collections/ArrayQueueTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1444">
-          <caret line="76" column="5" lean-forward="true" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="57">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
