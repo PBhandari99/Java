@@ -2,7 +2,6 @@ package main.java.howard.edu.ood.hw2.collections;
 
 import org.junit.Test;
 
-import java.lang.reflect.Array;
 import java.util.NoSuchElementException;
 
 import static org.junit.Assert.*;

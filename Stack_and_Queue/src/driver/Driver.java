@@ -50,9 +50,5 @@ public class Driver {
 
 
     public static void main(String[] args) {
-//        ArrayQueue queue1 = new ArrayQueue();
-//        queue1.enqueue(2);
-//        queue1.enqueue(3);
-//        System.out.println(queue1.toPrintString());
     }
 }
