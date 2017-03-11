@@ -86,7 +86,7 @@ public class ArrayQueue implements QueueOperations {
             StringBuilder sb = new StringBuilder();
             int index = head;
             int counter = 0;
-            while(counter<noOfElements){  // head = head; head!=tail; head=(head+1)%queueAllocatedsize
+            while(counter<noOfElements){
                 sb.append(" ");
                 sb.append(queue[index]);
                 index = (index+1)%queueAllocatedSize;

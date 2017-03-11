@@ -107,7 +107,7 @@ public class ArrayStack implements StackOperations {
      * top [ 1 ] bottom     (stack with one element)
      * top [ 5 2 8 ] bottom (stack with 3 elements)
      */
-    public String toPrintString() {
+    public String toString() {
         if(isEmpty()){
             return "top [ ] bottom       (empty stack)";
         }
