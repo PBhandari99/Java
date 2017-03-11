@@ -4,8 +4,9 @@ import java.util.Arrays;
 import java.util.NoSuchElementException;
 
 /**
- * Created by Prashant Bhandari on 2/22/17.
- * The class is a implementation of stack data structure in Array
+ *The class is a implementation of stack data structure in Array.
+ *
+ * @author  Prashant Bhandari
  */
 public class ArrayStack implements StackOperations {
 
@@ -18,16 +19,24 @@ public class ArrayStack implements StackOperations {
         currentSize = 0;
     }
 
+    /**
+     * This method return the current size of the stack array
+     * @return int, size of array
+     */
     public int getCurrentSize(){
         return currentSize;
     }
 
+    /**
+     * This method return the stack array.
+     * @return int[]
+     */
     public int[] getStack() {
         return stack;
     }
     /**
-     * returns a new array double the size of the stack array.
-     *
+     * This method creats a new array double the size of the stack array.
+     *@return int[]
      */
     private int[] reSizeArray() {
         this.stackAllocatedSize *= 2;
@@ -35,14 +44,14 @@ public class ArrayStack implements StackOperations {
     }
 
     /**
-     * returns void and take an integer parameter.
-     * It pushes the given parameter integer in the
-     * stack array from the top.
-     * If the stack array is full,
-     * a new array of double the size is
-     * Declared and everything from the
+     * This method pushes the given parameter integer in the
+     * stack array from the top. If the stack array is full,
+     * a new array of double the size is declared and everything from the
      * old array is copied and the operation will continue
      * on the new one.
+     *@param item
+     *@return nothing.
+     *
      */
     @Override
     public void push(int item) {
@@ -58,9 +67,9 @@ public class ArrayStack implements StackOperations {
     }
 
     /**
-     * returns and removes an integer value from the
-     * the top of the stack array and if
-     * the array is empty NoSuchElementException()
+     * This method removes an integer value from the
+     * the top of the stack array.
+     * @exception NoSuchElementException when array is empty
      * is thrown.
      */
     @Override
@@ -75,10 +84,10 @@ public class ArrayStack implements StackOperations {
     }
 
     /**
-     * returns but doesn't remove an integer value from the
-     * the top of the stack array and if
-     * the array is empty NoSuchElementException()
-     * is thrown.
+     * This method returns but doesn't remove an integer value from the
+     * the top of the stack array.
+     *
+     * @exception NoSuchElementException when array is empty
      */
     @Override
     public int peek() {
@@ -91,7 +100,8 @@ public class ArrayStack implements StackOperations {
     }
 
     /**
-     * return true if the stack array is empty.
+     * This method checks to if the stack is empty.
+     * @return true if the stack array is empty.
      */
     @Override
     public boolean isEmpty() {
@@ -99,8 +109,8 @@ public class ArrayStack implements StackOperations {
     }
 
     /**
-     * return string of certain format based on the
-     * the data in the stack array.
+     * This method creates a string from the stack.
+     * @return string
      *
      * sample return string:
      * top [ ] bottom       (empty stack)

@@ -20,6 +20,10 @@ public class ArrayQueue implements QueueOperations {
         tail = -1;
     }
 
+    /**
+     * This method removes the first element of the queue array.
+     * @return 0
+     */
     @Override
     public int dequeue() {
         if (isEmpty()) {
@@ -30,6 +34,10 @@ public class ArrayQueue implements QueueOperations {
         return 0;
     }
 
+    /**
+     * This method add element to the queue.
+     * @param element an integer that is to be added to the queue.
+     */
     @Override
     public void enqueue(int element) {
         if (isEmpty()) {
@@ -46,11 +54,20 @@ public class ArrayQueue implements QueueOperations {
         noOfElements += 1;
     }
 
+    /**
+     * This method check if the queue is empty or not
+     * @return true if empty
+     */
     @Override
     public boolean isEmpty() {
         return head == -1 && tail == -1;
     }
 
+    /**
+     * This method returns the head of the queue
+     * @return int at front of the queue
+     * @exception throws if the queue is empty
+     */
     @Override
     public int peek() {
         if (isEmpty()) {
@@ -59,10 +76,19 @@ public class ArrayQueue implements QueueOperations {
         return queue[head];
     }
 
+    /**
+     * This method checks if the queue is full.
+     * @return true if full
+     */
     private boolean isFull() {
         return (head == ((tail + 1) % queueAllocatedSize));
     }
 
+    /**
+     * This method creates a new queue if the initial queue runs out of space.
+     * the new queue will be double the size of the old queue.
+     * @return nothing
+     */
     private void resizeQueue() {
         int index = head;
         int counter = 0;
@@ -78,6 +104,15 @@ public class ArrayQueue implements QueueOperations {
         tail = noOfElements-1;
     }
 
+    /**
+     * This method creates a string from the queue.
+     * @return string
+     *
+     * sample return string:
+     * front [ ] back       (empty queue)
+     * front [ 1 ] back     (queue with one element)
+     * front [ 5 2 8 ] back (queue with 3 elements)
+     */
     public String toString() {
         if(isEmpty()){
             return "front [ ] back       (empty queue)";

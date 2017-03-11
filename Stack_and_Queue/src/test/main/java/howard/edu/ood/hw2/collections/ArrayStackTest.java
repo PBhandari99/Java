@@ -11,12 +11,18 @@ import static org.junit.Assert.*;
  */
 public class ArrayStackTest {
 
+    /**
+     * This test passes if the stack is empty.
+     */
     @Test
     public void testIsEmptyWhenEmpty() {
         ArrayStack testStack1 = new ArrayStack();
         assertEquals(true, testStack1.isEmpty());
     }
 
+    /**
+     * This test passes when the stack is not empty with just one element.
+     */
     @Test
     public void testIsEmptyWhenNotEmpty() {
         ArrayStack testStack1 = new ArrayStack();
@@ -24,12 +30,19 @@ public class ArrayStackTest {
         assertEquals(false, testStack1.isEmpty());
     }
 
+    /**
+     * This test passes when an exception is thrown looking for elements in empty array
+     * @exception NoSuchElementException
+     */
     @Test(expected = NoSuchElementException.class)
     public void testPeekWhenEmpty() {
         ArrayStack testStack1 = new ArrayStack();
         testStack1.peek();
     }
 
+    /**
+     * This test passes if the only element in the array is returned.
+     */
     @Test
     public void testPeekWithSingleElement() {
         ArrayStack testStack1 = new ArrayStack();
@@ -37,6 +50,9 @@ public class ArrayStackTest {
         assertEquals(1, testStack1.peek());
     }
 
+    /**
+     * This test passes if among the elements in the array the top most is returned.
+     */
     @Test
     public void testPeekWithMoreThanOneElements() {
         ArrayStack testStack1 = new ArrayStack();
@@ -47,12 +63,20 @@ public class ArrayStackTest {
         assertEquals(4, testStack1.peek());
     }
 
+    /**
+     * This test passes with the throw of exception when trying to delete element from
+     * an empty stack Array.
+     * @exception NoSuchElementException
+     */
     @Test(expected = NoSuchElementException.class)
     public void testPopWhenEmpty() {
         ArrayStack testStack1 = new ArrayStack();
         testStack1.pop();
     }
 
+    /**
+     * This test passes when the element at the top of the stack array is deleted and returned.
+     */
     @Test
     public void testPopNotEmpty() {
         ArrayStack testStack1 = new ArrayStack();
@@ -62,6 +86,11 @@ public class ArrayStackTest {
         assertEquals(3, testStack1.pop());
     }
 
+    /**
+     * This test method passes if the string of certain format is returned
+     * the return string should be "top [ ] buttom       (empty stack)"
+     * which is in the case of an empty stack
+     */
     @Test
     public void testToStringWhenStackIsEmpty() {
         ArrayStack testStack1 = new ArrayStack();
@@ -69,6 +98,11 @@ public class ArrayStackTest {
         assertEquals(expectedString, testStack1.toString());
     }
 
+    /**
+     * This test method passes if the string of certain format is returned
+     * the return string should be "top [ 1 ] buttom       (stack with one element)"
+     * which is in the case of stack with singular element.
+     */
     @Test
     public void testToStringOnlyOneElement() {
         ArrayStack testStack = new ArrayStack();
@@ -77,6 +111,11 @@ public class ArrayStackTest {
         assertEquals(expectedString, testStack.toString());
     }
 
+    /**
+     * This test method passes if the string of certain format is returned
+     * the return string should be "top [ 5 4 3 2 1 ] buttom       (stack with 6 elements)"
+     * which is in the case of stack with 5 elements.
+     */
     @Test
     public void testToStringWithMoreThanOneElement() {
         ArrayStack testStack = new ArrayStack();
@@ -89,6 +128,9 @@ public class ArrayStackTest {
         assertEquals(expectedString, testStack.toString());
     }
 
+    /**
+     * This test method passes if the correct number of elements in the stack array is returned.
+     */
     @Test
     public void testGetCurrentSize() {
         ArrayStack testStack = new ArrayStack();
